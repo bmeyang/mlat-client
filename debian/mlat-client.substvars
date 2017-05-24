@@ -1,0 +1,5 @@
+misc:Depends=debconf (>= 0.5) | debconf-2.0
+python3:Depends=python3 (<< 3.6), python3 (>= 3.5~), python3.5:any, python3:any (>= 3.2~), python3:any (>= 3.3.2-2~)
+python3:Versions=3.5
+shlibs:Depends=libc6 (>= 2.14)
+misc:Pre-Depends=
